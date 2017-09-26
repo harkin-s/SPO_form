@@ -1,17 +1,17 @@
 .invalid input{
     border: 1.5px solid #e74c3c;
   }
-  .alertStyle {
-    color : "#e74c3c"
+.alertStyle {
+    color : #e74c3c;
   }
-  .form-head{
+.form-head{
       background-color: #3498db;
       color: #ffffff;
       min-height: 45px;
       font-size: x-large;
       padding-left: 30px;
-  }
-  .form-main{
+ }
+.form-main{
       border: 1px solid gainsboro;
       padding: 0px 40px 30px 30px;
   }
