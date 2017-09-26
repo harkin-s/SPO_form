@@ -74,12 +74,14 @@ class Layout extends React.Component{
             this.state[fields[i]].valid = this.state[fields[i]].validate(this.state[fields[i]].value);
         }
     }
-
+    // Using classes from bootstrap 4 
     render(){
         return (
         <div className="row">
             <div className="col"></div>
             <div className="col-6">
+            <div className="form-head"><span>Create your free account</span></div>
+                <div className="form-main">
                 <form>
                     <div className={"form-group " + (this.state.firstName.valid ? '': "invalid")} >
                         <label htmlFor="firstName">First Name</label>
@@ -110,6 +112,7 @@ class Layout extends React.Component{
                     <button className="btn btn-primary" onClick={this.submit}>Submit</button>
                 </form>
             </div>
+                </div>
             <div className="col"></div>
         </div>
         );
